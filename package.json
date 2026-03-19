@@ -1,0 +1,20 @@
+{
+  "name": "math-expr-cli",
+  "version": "1.0.0",
+  "description": "Evaluate math expressions from the command line. Supports +, -, *, /, %, **, parentheses, and Math functions. Zero dependencies.",
+  "main": "index.js",
+  "bin": {
+    "math-expr": "index.js"
+  },
+  "scripts": {
+    "test": "node index.js '2+2' && node index.js 'Math.sqrt(144)'"
+  },
+  "keywords": ["math", "expression", "evaluate", "calculator", "cli", "calc"],
+  "author": "kszongic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kszongic/math-expr-cli"
+  },
+  "funding": "https://github.com/sponsors/kszongic"
+}
